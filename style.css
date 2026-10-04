@@ -1,0 +1,9 @@
+:root { font: 16px/1.5 system-ui, sans-serif; color: #202124; background: #f5f7fa; }
+body { margin: 0; }
+main { box-sizing: border-box; max-width: 680px; margin: 5rem auto; padding: 2rem; background: white; border: 1px solid #d9e0e7; border-radius: 12px; }
+label { display: block; margin: 1rem 0; font-weight: 600; }
+input, select, button { box-sizing: border-box; width: 100%; margin-top: .35rem; padding: .65rem; font: inherit; }
+button, #download { display: inline-block; width: auto; padding: .7rem 1rem; color: white; background: #1463c3; border: 0; border-radius: 6px; text-decoration: none; cursor: pointer; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+#preview { display: block; max-width: 100%; height: auto; margin: 1rem 0; border: 1px solid #d9e0e7; }
+@media (max-width: 600px) { main { margin: 1rem; } .grid { grid-template-columns: 1fr; gap: 0; } }
